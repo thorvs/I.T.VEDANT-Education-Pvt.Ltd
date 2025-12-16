@@ -15,12 +15,15 @@ Welcome to my comprehensive learning repository documenting my Full Stack Java D
 |--------|-------|--------|----------|
 | **Module 1** | **Profile Building & Career Foundation** | ✅ Completed | November 2025 |
 | **Module 2** | **Web Development Essentials** | 🟡 In Progress | December 2025 |
-| **Module 3** | **Core Java & OOP Fundamentals** | ⏳ Upcoming | January 2026 |
-| **Module 4** | **Advanced Java & Frameworks** | ⏳ Upcoming | February 2026 |
-| **Module 5** | **Database Management Systems** | ⏳ Upcoming | March 2026 |
-| **Module 6** | **Spring & Spring Boot** | ⏳ Upcoming | April 2026 |
-| **Module 7** | **Frontend Integration & DevOps** | ⏳ Upcoming | May 2026 |
-| **Module 8** | **Capstone Project & Deployment** | ⏳ Upcoming | June 2026 |
+| **Module 3** | **JavaScript Essentials** | ⏳ Upcoming | January 2026 |
+| **Module 4** | **React Essentials** | ⏳ Upcoming | February 2026 |
+| **Module 5** | **SQL Deep Dive** | ⏳ Upcoming | March 2026 |
+| **Module 6** | **Java Essentials** | ⏳ Upcoming | April 2026 |
+| **Module 7** | **Mastering Spring Boot** | ⏳ Upcoming | May 2026 |
+| **Module 8** | **Mastering Testing in Java** | ⏳ Upcoming | June 2026 |
+| **Module 9** | **NoSQL With MongoDB** | ⏳ Upcoming | July 2026 |
+| **Module 10** | **Angular** | ⏳ Upcoming | August 2026 |
+| **Module 11** | **AWS** | ⏳ Upcoming | September 2026 |
 
 ---
 
