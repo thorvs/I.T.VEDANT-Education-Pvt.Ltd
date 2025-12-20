@@ -1,6 +1,6 @@
 # 🌟 My Full Stack Java Developer Learning Journey
 
-![Course Banner]([https://images.unsplash.com/photo-1515879218367-8466d910aaa4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80](https://i.ytimg.com/vi/L4sOI8ffsqs/maxresdefault.jpg))
+![Course Banner]((https://i.ytimg.com/vi/L4sOI8ffsqs/maxresdefault.jpg))
 
 Welcome to my comprehensive learning repository documenting my Full Stack Java Development journey at **I.T. VEDANT Education Pvt. Ltd.** This repository serves as a living portfolio of my growth, projects, and skills development throughout the course.
 
