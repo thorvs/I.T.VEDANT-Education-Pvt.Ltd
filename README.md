@@ -1,4 +1,4 @@
-# 🌟 Full Stack Java Developer Learning Journey
+# 🌟 My Full Stack Java Developer Learning Journey
 
 ![Course Banner](https://images.unsplash.com/photo-1515879218367-8466d910aaa4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80)
 
@@ -190,7 +190,7 @@ I.T.VEDANT-Education-Pvt.Ltd/
 ### **🎯 Module Completion Status**
 ```
 Profile Building    ██████████ 100%
-Web Development     ████░░░░░░ 40%
+Web Development     ██████░░░░ 50%
 JavaScript          ░░░░░░░░░░ 0%
 React               ░░░░░░░░░░ 0%
 SQL                 ░░░░░░░░░░ 0%
@@ -271,7 +271,7 @@ AWS                 ░░░░░░░░░░ 0%
 
 ## 🏫 About I.T. VEDANT Education Pvt. Ltd.
 
-**I.T. VEDANT Education Pvt. Ltd.** is a premier IT training institute committed to transforming careers through quality education and hands-on training. The institute offers:
+**I.T. VEDANT Education Pvt. Ltd.** is a premier, Mumbai's #1 IT training institute committed to transforming careers through quality education and hands-on training. The institute offers:
 
 ### **🎓 Comprehensive Training Programs:**
 - Full Stack Java Development with Modern Frameworks
