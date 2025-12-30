@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combinator Selector</title>
+    <style>
+        /* Combinator Selector */
+        h1 {
+        text-align: center;
+      }
+      .container p {
+        color: green;
+      }
+      .container > p {
+        color: red;
+      }
+      .container + p {
+        color: brown;
+      }
+      .container ~ p {
+        color: orange;
+      }
+
+
+      /* nth selector */
+      ul li:first-child {
+        color: red !important;
+      }
+      ul li:last-child {
+        color: green !important;
+      }
+      ul li:nth-child(3) {
+        color: yellow !important;
+      }
+      ul li:nth-child(odd) {
+        color: tomato;
+      }
+    </style>
+</head>
+<body>
+    <h1>Combinator Selector</h1>
+
+    <div class="container" style="border: 2px solid red;padding: 4px;">
+         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, esse debitis atque iusto earum enim ullam accusantium. Consequuntur, quis, dicta eos reprehenderit deserunt repellendus enim eius modi dolor delectus sed!</p>
+        <h2>Decendent Selector: div p</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit amet praesentium quidem, velit modi ut reprehenderit dolorem sit. Repellat consequu illum. Nostrum, modi ut.</p>
+        <h2>Adjecent Selector: div > p</h2>
+        <div class="box"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, repellendus quam tempore harum consequuntur, aperiam vero dolore mi
+       obis aut cum tenetur quae vitae dolore ut ea doloribus mosam harum facere. Architecto hic eius quas autem facere.a</p>
+        </div>
+        <h2>Sibling Selector: .container ~ p</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea soluta hic, maiores esse ipsum quod sequi eaque a accusantium fugiat iure. Dignissimos quibusdam ea optio doloremque non ducimus neque aperiam.</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero debitis aliquid esse, delectus sunt sequi alias iure aperiam itaque blanditiis tempore mollitia labore corporis magni beatae? Sint voluptatibus eaque mollitia.</p>
+    </div>
+    <br><br>
+
+
+    <h2>Selectors</h2>
+    <ul>
+        <li>:First-Child - Google</li>
+        <li>Amazon</li>
+        <li>:nth-child(3) - Facebook</li>
+        <li>Apple</li>
+        <li>:last-child - Microsoft</li>
+        <li>TCS</li>
+        <li>nth-child(odd/even) - Wi[ro</li>
+        <li>Tata Steel</li>
+        <li>Kotak Bank</li>
+    </ul>
+</body>
+</html>

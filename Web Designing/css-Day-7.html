@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS MEDIA QURIES</title>
+    <style>
+        h2 {
+            display: none;
+        }
+        p {
+            text-align: center;
+            font-size: 1.1rem;
+            color: darkmagenta;
+        }
+      @media screen and (max-width: 470px) {
+        body {
+            background-color: goldenrod;
+        }
+        h1 {
+            text-align: center;
+            color: silver;
+        }
+        .mobile {
+            display: block;
+            text-align: center;
+            color: red;
+        }
+      }
+      @media screen and (min-width:470px) and (max-width:700px) {
+        body {
+            background-color: yellow;
+        }
+        h1 {
+            text-align: center;
+            color: blue;
+        }
+       .tablet {
+        display: block;
+        text-align: center;
+        color: blue;
+      }
+      }
+      
+      @media screen and (min-width: 700px) {
+        body {
+            background-color: red;
+        }
+        h1 {
+        color: green;
+        text-align: center;
+      }
+      .laptop {
+         display: block;
+         text-align: center;
+         color: orange;
+      }
+      }
+      
+    </style>
+</head>
+<body>
+    <h1>CSS3 MEDIA QURIES</h1>
+    <h2 class="mobile">This is for Mobile Design</h2>
+    <h2 class="tablet">This is for Tablets Designs....</h2>
+    <h2 class="laptop">This is for Laptop and PC and Big Screens ....</h2>
+    
+    <p>Try to Change to browser to Mobile Screen and tablet and Larger Screen like Laptop and Projector !</p>
+
+
+</body>
+</html>

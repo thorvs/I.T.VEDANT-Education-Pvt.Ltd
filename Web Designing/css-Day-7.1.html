@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Class & Pseudo Elements</title>
+    <style>
+        h1 {
+            text-align: center;
+            border: 5px solid red;
+            padding: 5px;
+            background-color: green;
+            border-left: 5px dotted blue;
+            border-right: 5px dashed black;
+            border-bottom: 5px solid pink;
+            border-radius: 5px;
+        }
+        ul li {
+            list-style: none;
+            margin: 10px;
+            display: inline-block;
+            font-size: 1.2rem;
+            color: brown;
+        }
+        ul {
+            background-color: blue;
+            padding: 5px;
+        }
+        /* Psedo classes */
+        .para {
+            color: red;
+            transition: .7s;
+        }
+        .para::first-line {
+            background-color: green;
+            padding: 10px;
+        }
+        .para::first-letter {
+            color: whitesmoke;
+            font-size: 1.6rem;
+        }
+       .para::selection {
+        color: white;
+        background-color: black;
+       }
+        /* Psedu Elements */
+        .para:hover {
+            color: orange;
+            font-size: 2rem;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Pseudo Class & Pseudo Elements !</h1>
+
+    <a style="text-decoration: none;color: red;" href="../">Hello, Google ! Go To Home Page</a>
+     <br><br>
+    
+    <ul>
+        <li>List-items</li>
+        <li>List-item</li>
+        <li>List-item</li>
+        <li>List-item</li>
+    </ul>
+    <br>
+
+    <p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci accusamus officia perferendis, maiores repellat earum non explicabo at. Quo eius deleniti suscipit fugiat hic! Quidem, recusandae placeat! Ad, eius dignissimos.</p>
+    <br><br>
+    <a style="text-decoration: none;" href="./"> <= GO BACK </a>
+</body>
+</html>
