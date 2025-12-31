@@ -4,8 +4,77 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS ANIMATION AND TRANSISTATION</title>
+    <style>
+        h1 {
+            text-align: center;
+            color: limegreen;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            animation-name: colorchange;
+        }
+        .container {
+            height: 350px;
+            width: auto;
+            background-color: black;
+            padding: 10px;
+            border-radius: 10px;
+            position: relative;
+        }
+        .box {
+            height: 70px;
+            width: 70px;
+            background-color: #fff;
+            border-radius: 7px;
+            position: absolute;
+            animation-name: rotate;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            transition: 3s;
+        }
+        @keyframes rotate {
+            0% {
+                top: 10px;
+                left: 10px;
+                right: auto;
+                bottom: auto;
+            }
+            25% {
+                right: 10px;
+                top: 10px;
+                left: auto;
+                bottom: auto;
+                width: 35px;
+                height: 35px;
+                background-color: red;
+            }
+
+            75% {
+                  left: 10px;
+                  bottom: 10px;  
+                  left: auto;
+                  top: auto;
+                  width: 70px;    
+                  height: 70px;  
+                  background-color: green;  
+            }
+           100% {
+            left: 10px;
+            bottom: auto;
+            right: auto;
+            top: 10px;
+            background-color: goldenrod;
+          }
+        }
+    </style>
 </head>
 <body>
     <h1>CSS ANIMATION AND TRANSISTION</h1>
+
+    <div class="container">
+        <div class="box"></div>
+    </div>
+
+
+
 </body>
 </html>
