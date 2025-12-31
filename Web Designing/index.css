@@ -15,10 +15,13 @@ button {
 }
 .container-box {
     display: flex;
+    /* justify-content: space-evenly; */
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     gap: 10px;
+    /* flex-direction: column; */
 }
 button a {
     text-decoration: none;
@@ -215,3 +218,6 @@ img {
     margin: 5px;
     text-align: center;
 }
+
+
+/* Most Of The CSS Code I Written In Internal CSS In Each Html File */
