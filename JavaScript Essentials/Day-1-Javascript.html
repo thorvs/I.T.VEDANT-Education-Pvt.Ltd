@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dau-1 JavaScript</title>
+    <!-- External Javascript -->
+    <script src="./Javascript/day-1-javascript.js"></script>
+</head>
+<body>
+    <h1>Basic JavaScript</h1>
+
+    <h1>Types of JavaScript</h1>
+    <ul>
+        <li>Internal Javascript</li>
+        <li>External Javascript</li>
+        <li>Iniine Javascript</li>
+    </ul>
+
+    <p>JavaScript: window  > document</p>
+    
+    <h2>Variables Declaring using:</h2>
+
+    <ul>
+        <li>var</li>
+        <li>let</li>
+        <li>const</li>
+    </ul>
+
+
+   <h2>This is JS File</h2>
+   <pre>
+    // Document Write types
+document.writeln("Hello Day 1 ,Javascript Essentials");
+// alert("Hello Alerts");
+
+// To Create or write html elements
+document.writeln("<h1>This is Heading 1 From Js file</h1>");
+
+
+// Console types
+console.log("This is My Console Log");
+console.warn("This is Waring console");
+console.error("This is Error Console !");
+
+
+//  Declaring Variables
+var a = 6;
+var age = 18;
+// var age = 20;     redeclare allow in var in all scope
+
+let b = true;
+let name = "akshay";
+// let name = "hello";  cannot redeclare in same block scope !
+
+// const = constant value to their reference
+const Name = "Akshay Gohrava";
+
+
+
+// Block Scope and Function Scope 
+// block scope
+{
+    console.log("this is block scope !");
+
+}
+
+
+// function scope
+// function in js is block of code use to again and again 
+
+// initializing function
+ // let a = 20;    // let variable will not work inside function 
+function home() {
+    let a = 20;   // will work here !
+    console.log("Hello Function");
+    alert(a);
+}
+// executing function
+home();
+
+
+
+   </pre>
+
+<!-- Internal Javascript -->
+    <script>
+        var age = 20;
+        document.writeln('Hello document.writeln -- write');
+        document.writeln('"age ="' + " " + age );
+        document.writeln("Age = " + `${age}`);
+        
+
+        // styling
+        document.getElementsByTagName('h1')[0].style.color = 'red';
+    </script>
+</body>
+</html>
