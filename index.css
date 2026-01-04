@@ -1,5 +1,6 @@
 body {
-    padding: 0;
+    background-image: url('./Web Designing/images/bg-images/suzume-mobile.jpg');
+    background-size: cover;
 
 }
 h1 {
