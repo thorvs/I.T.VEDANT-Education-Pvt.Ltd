@@ -1,0 +1,3 @@
+difference between join and subquery--
+1. whenever we require multiple result from different tables we use join,wherea subquery is mostly used fr filtering result in a same table by applying a condition which is comming from  other tables
+2. join can be fast compared to subquery in scenario where join uses indexes or index column,subquery can be most costlier in scenarios where it uses co-related technique.

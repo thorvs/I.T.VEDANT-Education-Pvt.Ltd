@@ -1,0 +1,27 @@
+.box {
+  height: 100px;
+  width: 100px;
+  background-color: steelblue;
+  display: inline-block;
+}
+
+#box1 {
+  /* 10px 0px tl br  tr bl */
+  /* 10px 0px 20px tl tr b1 br */
+  /* tl tr br bl */
+  border-radius: 400px 0px 400px 400px;
+}
+#box2{
+     border-radius: 400px 0px 40px 400px;
+}
+
+#box3{
+     border-radius: 10px 400px 40px;
+
+}
+#box4{
+    border-radius: 85px 85px;
+}
+#box5{
+    border-radius: 5px 8px 8px 100px
+}

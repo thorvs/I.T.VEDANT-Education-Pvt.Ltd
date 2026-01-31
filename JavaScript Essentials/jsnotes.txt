@@ -1,0 +1,219 @@
+windows is the topmost element child is document 
+
+// for in and for of 
+// for each 
+// arrow function
+
+let a=[12,5,55,888,66,47];
+// forEach(parameters , index,array printing) eg : forEach(n,i,a)
+a.forEach((n,i,a)=>
+    {
+        console.log(n,i);
+    });
+
+
+// to print all the number with square root 
+// map retuns a new array
+// let arr=a.map((n)=>n); element ,index and element are the parametes need to be remember 
+let arr=a.map((n)=>[[n]*n]+4);
+console.log(arr);
+
+// to print all the prime number in the array 
+// filter prints the value only that is comming true 
+// filter gives you the new array based on your condition (works on the yor condition )
+let arr2=a.filter((n)=>n%2==0);
+console.log(arr2);
+
+let aar3 =[56,66,78,99,21,4,5]
+.map((n)=>n*2)
+.filter((n)=>n<55)
+console.log(aar3);
+
+=============
+reverse array:
+function reverse(n){
+
+    let rev=0;
+
+    
+    while(n>0){
+    let rem=n%10;
+    rev=rev*10+rem;
+    n=Math.floor(n/10);
+  
+
+}
+return rev;
+}
+
+
+
+
+let arr=[34,44,55,66,77];
+console.log("this is through functoion "+arr.map((n)=>reverse(n)));
+
+let aar2=arr.map((n)=>{
+     let rev=0;
+
+    
+    while(n>0){
+    let rem=n%10;
+    rev=rev*10+rem;
+    n=Math.floor(n/10);
+  
+
+}
+return rev;
+
+})
+
+console.log("this is through map"+aar2); 
+==============
+objects:
+// objets are searched by properties and name of property and arrays are searched by index
+
+// to create a object use const onlt 
+
+const product={
+    id:101, //property name :value
+    name:"laptop ",
+    price:450000
+
+}
+// to shoe the data of the object
+console.log(product.id);
+console.log(product.name);
+console.log(product.price);
+
+//you can also acces the property through using array formate e.g product["parameters name "]
+console.log(product["id"]);
+
+//to print the objets by for loop 
+
+for(let i in product){
+    console.log(i,product[i]);
+}
+
+
++++++++++++++++++++++++++++
+const book={
+    id:992,
+    name : "charle ",
+    author:"roldhal"
+}
+// 
+console.log(book);
+book["author"]="pty";
+// you can add another property also 
+book["prise"]=50;
+console.log(book);
+ 
+
+const school={
+    id:38,
+    name:"vinay",
+    location:"mumbai ",
+    fees:50000,
+    daetails:function(){
+       this.id,this.name,this.location
+       
+    },
+    discount:function (f){
+        return f-20
+    }
+}
+school.daetails()
+console.log(school.discount(f)) //need moodification 
+
+***************************objects **********
+spread operators :
+             const b={r:1 ,p:3};
+const a={t:1 ,j:3,...b};//using spread operator you can print the value of the objects diectly 
+console.log(a);
+output:
+{ t: 1, j: 3, r: 1, p: 3 }
++++++++++++++++++++++++
+
+
+object destructuring :(it is used in the react also ) you can use variable to print the property values 
+
+//object destructuring 
+const s={q:1,w:2,e:"name"}
+const {q,w,e}=s;
+console.log(q,w,e); 
+output 
+1 2 name
++++++++++++
+in the aboue you can print the out put without using the this. creation 
+
+
+
+
+
+
+
+
+
+DOM
+1stobject
+{window}
+console ,alert prompt ,confirm
+{document}
+{html{head                              {body
+                                              {div} {img}}}
+         {title} {meta(viewport)}
+                                  }
+                                    
+
+
+
+document.getElementsByTagName("h1")
+op:HTMLCollection [h1]0: h1length: 1[[Prototype]]: HTMLCollection
+document.getElementsByTagName("h1")[0]
+op:
+<h1>​hello​</h1>​
+
+const h1=document.getElementsByTagName("h1")[0]
+h1
+
+
+document get element by id 
+query selector 
+document.createElement("adds an object")
+document.createElement("h1")
+document.body.appendChild(h1) 
+addEventListener("submit", ()=>{})
+
+****event bubbling*********
+addition of 2 no.
+factorial
+prime
+sumof numberd from  1to n
+table of number
+
+innerHTML
+TEXTCONTENT
+innerText
+promise {three function then (if it is sucss
+api 
+fetch asynk await
+
+
+
+
+
+
+
+
+godzillagandu =12345 proteted text 
+
+
+
+
+
+
+
+
+
+
+   

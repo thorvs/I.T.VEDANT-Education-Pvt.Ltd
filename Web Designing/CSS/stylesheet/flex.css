@@ -1,0 +1,99 @@
+.box {
+  background-color: tomato;
+  height: 250px;
+  width: 250px;
+}
+
+#box1 {
+  background-color: violet;
+  height: 100px;
+  width: 100px;
+  position: relative;
+
+  top: 10px;
+}
+
+#box2 {
+  background-color: rgb(20, 136, 220);
+  height: 100px;
+  width: 100px;
+  position: relative;
+  top: -50px;
+  left: 25px;
+  z-index: 1;
+}
+
+#box3 {
+  height: 100px;
+  width: 100px;
+  position: relative;
+  top: -100px;
+  left: 50px;
+}
+
+.boz1 {
+  height: 200px;
+  width: 200px;
+  background-color: rgb(96, 128, 0);
+  position: relative;
+}
+
+.boz2 {
+  height: 50px;
+  width: 50px;
+  background-color: rgb(22, 187, 148);
+  position: absolute;
+  border-radius: 22px;
+  top: 80px;
+  left: 80px;
+}
+
+/* position sticky html */
+.nbox {
+  height: 250px;
+  width: 250px;
+  background-color: wheat;
+  margin: 50px;
+  color: cadetblue;
+  box-shadow: 0px 0px 10px 10px rgb(227, 227, 118);
+
+  /* visible hidden scroll */
+  overflow: scroll;
+  position: relative;
+}
+
+.fix {
+  background-color: blue;
+  position: sticky;
+  top: 0;
+  left: 0;
+  height: 50px;
+  width: 50px;
+}
+
+p {
+  font-size: 40px;
+}
+
+.container {
+  height: 150px;
+  width: 100px;
+  background-color: chocolate;
+  display: inline-block;
+}
+
+#container1 {
+  background-image: url(../imgw.jpg);
+  background-size: contain;
+
+}
+#container2 {
+  background-image: url(../imgw.jpg);
+  background-size: contain;
+  background-position: 8px -30px;
+  
+}
+#container3 {
+  background-image: url(../imgw.jpg);
+  background-size: contain;
+}

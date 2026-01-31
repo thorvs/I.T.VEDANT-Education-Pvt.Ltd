@@ -1,0 +1,37 @@
+@media screen and (max-width:576px){
+    body{
+        background-color: yellow;
+    }
+}
+h1{
+    background-color: yellowgreen;
+    text-align: center;
+}
+@media screen and (min-width:557px) and (max-width:750px){
+    body{
+        background-color: red;
+
+
+    }
+    P{
+        background-color: blue;
+        color: chocolate;
+        text-decoration: overline;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:1200px){
+    body{
+        background-color: blueviolet;
+    }
+    
+}
+
+@media screen and (min-width:1256px){
+    body{
+        background-color: olive;
+    }
+    p{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+}

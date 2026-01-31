@@ -1,0 +1,22 @@
+
+
+
+.container{
+    background-color: burlywood;
+    border: 2px solid black;
+    height: 200px;
+    display: flex;
+    /* column, row-reverse, colum */
+    flex-direction: row-reverse;
+    /* wrap wrap-reverse */
+    flex-wrap: wrap;
+    /* space-ROUND */
+    justify-content: space-evenly;
+    align-items: end;
+}
+.box{
+    background-color: rgb(228, 197, 228);
+    border: 2px solid rgb(235, 148, 148);
+    height: 100px;
+    width: 80px;
+}

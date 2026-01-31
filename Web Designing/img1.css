@@ -1,0 +1,18 @@
+p{
+    font-size: 30px;
+}
+
+#img1{
+    
+    width: 200px;
+    float: left;
+}
+#img2{
+    width: 200px;
+    clear: left;
+}
+#img3{
+      width: 200px;
+    clear: left;
+}
+

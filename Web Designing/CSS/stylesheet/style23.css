@@ -1,0 +1,18 @@
+.te{
+
+}
+
+.para{
+    background-color: chartreuse;
+    display: inline-block;
+    height: 50px;
+    padding: 10px;
+    color: rgb(117, 98, 5);
+    text-decoration: double;
+}
+
+.go{
+    background-color: darkslategray;
+    color: violet;
+    display: flex;
+}

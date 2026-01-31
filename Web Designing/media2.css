@@ -1,0 +1,28 @@
+h1{
+    background-color: darkolivegreen;
+    text-align: center;
+    border: 2px solid grey;
+    border-top: 3px dodgerblue green;
+    border-left: 4px dotted red;
+    border-bottom: 5px double cadetblue;
+    border-radius: 8px;
+    font-family:'Times New Roman', Times, serif;
+}
+a{
+    text-decoration: 2px double black;
+}
+
+li{
+    list-style-type: none;
+    display: inline;
+    margin: 25px;
+}
+.para::first-line{
+    color: red;
+
+}
+
+.para::first-letter{
+    color:blue;
+    font-size: 25px;
+}

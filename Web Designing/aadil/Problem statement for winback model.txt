@@ -1,0 +1,5 @@
+Problem Statement:
+A customer bought an insurance plan last year and needs to renew it this year within a month after the coverage period ends. If they fail to renew, the plan will lapse. We need to identify customers who are likely to renew their insurance after it has lapsed.
+
+Solution:
+We plan to create a classification model to find customers who are similar to those who have successfully renewed their insurance. This will help us target customers who are more likely to renew their plans after they have lapsed.

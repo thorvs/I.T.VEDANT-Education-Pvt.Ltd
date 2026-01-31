@@ -1,0 +1,15 @@
+let ch="A";
+
+switch(ch.toLowerCase())
+{
+    case 'a':
+    case 'e':
+    case 'i':
+    case 'o':
+    case 'u':
+        console.log("Vowels");
+        break;
+    default:
+        console.log("consonants");
+    
+}
